@@ -5,13 +5,7 @@ class ComicCollectionViewCell: UICollectionViewCell {
 	
 	var identifier: Int?
 
-	lazy var imageView: UIImageView = {
-		let imageView = UIImageView()
-		imageView.contentMode = .scaleAspectFill
-		imageView.clipsToBounds = true
-		return imageView
-	}()
-	
+	private var imageView: UIImageView!
 	private var loadingIndicator: UIActivityIndicatorView!
 	private let borderWidth: CGFloat = 3
 	private let borderColor: UIColor = .white

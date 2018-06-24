@@ -69,7 +69,7 @@ extension ComicsListCollectionViewDelegate: UICollectionViewDataSource {
 		
 		viewModel.loadCellViewModel(forItem: item) {
 			[weak cell] (cellViewModel) in
-			// Cells are reusable, so we must check item id matches cell identifier before updating cell data to prevent setting incorrect data
+			// Cells are reusable and data is loaded asynchronously, so we must check cell id macthes item id after async load to ensure we are not updating cell with stale data
 			guard let id = cell?.identifier, id == item else { return }
 			DispatchQueue.main.async {
 				cell?.configure(with: cellViewModel)

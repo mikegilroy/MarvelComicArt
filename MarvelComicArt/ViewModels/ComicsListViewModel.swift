@@ -4,8 +4,7 @@ class ComicListViewModel {
 	
 	var comics = [Comic]()
 	
-	private(set) var comicImages = NSCache<NSNumber, UIImage>()
-	
+	private var comicImages = NSCache<NSNumber, UIImage>()
 	private let limit: Int = 20
 	private var offset: Int = 0
 

@@ -10,7 +10,6 @@ class ComicsCoordinator: Coordinator {
 	
 	func start(isNavigationBarHidden: Bool = true) {
 		let comicsListViewController = ViewControllerFactory.comicsList()
-		
 		comicsListViewController.actions.didSelectComic = {
 			[weak self] comic in
 			self?.goToComicDetail(comic: comic)
