@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - Cartography (3.0.1)
+  - CryptoSwift (0.9.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Cartography
+  - CryptoSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
+
+PODFILE CHECKSUM: a5685a236edf61ba20fa51689d283c352534bd02
+
+COCOAPODS: 1.4.0
