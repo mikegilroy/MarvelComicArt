@@ -129,14 +129,14 @@
 			isa = PBXGroup;
 			children = (
 				102DE23120E0391B00B5C24A /* AppDelegate.swift */,
-				102DE23220E0391B00B5C24A /* Coordinators */,
-				102DE23C20E0391B00B5C24A /* Extensions */,
 				102DE22520E0391B00B5C24A /* Factories */,
-				102DE23E20E0391B00B5C24A /* Model */,
-				102DE23620E0391B00B5C24A /* Services */,
+				102DE23220E0391B00B5C24A /* Coordinators */,
 				102DE22120E0391B00B5C24A /* ViewControllers */,
-				102DE22920E0391B00B5C24A /* ViewModels */,
 				102DE22D20E0391B00B5C24A /* Views */,
+				102DE22920E0391B00B5C24A /* ViewModels */,
+				102DE23620E0391B00B5C24A /* Services */,
+				102DE23E20E0391B00B5C24A /* Model */,
+				102DE23C20E0391B00B5C24A /* Extensions */,
 				102DE20820E0389500B5C24A /* Assets.xcassets */,
 				102DE20A20E0389500B5C24A /* LaunchScreen.storyboard */,
 				102DE20D20E0389500B5C24A /* Info.plist */,
@@ -559,7 +559,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXD8E5FVZ4;
 				INFOPLIST_FILE = MarvelComicArt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikegilroy.MarvelComicArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -576,7 +579,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXD8E5FVZ4;
 				INFOPLIST_FILE = MarvelComicArt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikegilroy.MarvelComicArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -592,7 +598,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXD8E5FVZ4;
 				INFOPLIST_FILE = MarvelComicArtTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikegilroy.MarvelComicArtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -609,7 +619,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXD8E5FVZ4;
 				INFOPLIST_FILE = MarvelComicArtTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikegilroy.MarvelComicArtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
